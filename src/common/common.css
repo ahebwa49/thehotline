@@ -58,6 +58,7 @@
   display: flex;
   border: 1px solid green;
   align-items: center;
+  margin-bottom: auto;
 }
 
 .swipe-note {
@@ -71,4 +72,48 @@
   text-align: center;
 
   color: #848484;
+}
+
+.quiz {
+  /* display: flex; */
+}
+
+.mask-group {
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+  margin: 25px 0px;
+}
+
+.question-count {
+  position: absolute;
+  /* border-radius: 50%; */
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  background-color: white;
+}
+
+.question {
+  text-align: center;
+  padding: 15px;
+}
+
+.answers {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  border: 1px solid rgb(146, 136, 146);
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9e3a8a;
+  border-radius: 3px;
+  width: 128px;
+  height: 52px;
+  border: 2px solid #9e3a8a;
 }
