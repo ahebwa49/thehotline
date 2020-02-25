@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  border: 1px solid blue;
+}
+
+.content-heading {
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 450;
+}
+
+.content-text-1 {
+  text-align: center;
+  color: #848484;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.content-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  color: #080808;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+  width: 128px;
+  height: 52px;
+  color: white;
+  background: #9e3a8a;
+  border-radius: 3px;
+  margin: 10px auto;
+  text-align: center;
+  align-items: center;
+}
+
+.start-text {
+  text-align: center;
+  color: #9e3a8a;
+}
+
+.swipe {
+  display: flex;
+  border: 1px solid green;
+  align-items: center;
+}
+
+.swipe-note {
+  color: #848484;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #848484;
+}
