@@ -2,7 +2,7 @@
   display: flex;
   font-size: 14px;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .logo {
@@ -10,7 +10,7 @@
   justify-content: center;
   margin-top: 35px;
   margin-bottom: 50px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .content-heading {
@@ -56,7 +56,7 @@
 
 .swipe {
   display: flex;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   align-items: center;
   margin-bottom: auto;
 }
@@ -81,7 +81,7 @@
 .mask-group {
   display: flex;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 25px 0px;
 }
 
@@ -104,7 +104,7 @@
   margin-top: 15px;
   margin-bottom: 50px;
   justify-content: space-around;
-  border: 1px solid rgb(146, 136, 146);
+  /* border: 1px solid rgb(146, 136, 146); */
 }
 
 .answer {
