@@ -87,7 +87,7 @@ const Results = props => {
             TIPS ON HOW TO DE-ESCALATE
           </p>
           <p className="de-escalate-text-paragraph">
-            Find help in your community, support groups, shelters and more.
+            Understand how you can try to community and resolve issues.
           </p>
         </div>
       </div>

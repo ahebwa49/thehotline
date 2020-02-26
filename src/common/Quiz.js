@@ -17,7 +17,8 @@ class Quiz extends React.Component {
             alt="mask group"
           />
           <div className="question-count">
-            {this.props.count}/{this.props.total}
+            <span className="question-count-number">{this.props.count}</span>
+            <span className="question-count-total">/{this.props.total}</span>
           </div>
         </div>
         <div className="question">{this.props.question}</div>
