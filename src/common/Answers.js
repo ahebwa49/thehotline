@@ -6,18 +6,27 @@ class Answers extends React.Component {
     this.state = {};
   }
 
-  checkAnswer = () => {
-    console.log("yes or no has been selected");
+  checkAnswer = answer => {
+    const { correct, increaseScore, answers } = this.props;
+
+    const correctAnswer = answers[correct - 1];
+
+    if (correctAnswer === answer) {
+      increaseScore();
+    }
+
+    this.props.nextQuestion();
   };
 
   render() {
+    const { answers } = this.props;
     return (
       <div className="answers">
-        <div className="answer" onClick={this.checkAnswer}>
-          Yes
+        <div className="answer" onClick={() => this.checkAnswer(answers[0])}>
+          {answers[0]}
         </div>
-        <div className="answer" onClick={this.checkAnswer}>
-          No
+        <div className="answer" onClick={() => this.checkAnswer(answers[1])}>
+          {answers[1]}
         </div>
       </div>
     );

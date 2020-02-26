@@ -11,7 +11,7 @@ class Content extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="content">
         <p className="content-heading">Is this abuse?</p>
         <p className="content-text-1">
           Answer a few questions that find out if you are at risk of being in an

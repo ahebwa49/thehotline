@@ -13,14 +13,20 @@ class Quiz extends React.Component {
           <img
             src="/static/img/MaskGroup.png"
             width="250"
-            alt="mask group"
             height="250"
-            style={{ display: "inline-block" }}
+            alt="mask group"
           />
-          {/* <div className="question-count">1/12</div> */}
+          <div className="question-count">
+            {this.props.count}/{this.props.total}
+          </div>
         </div>
         <div className="question">{this.props.question}</div>
-        <Answers nextQuestion={this.props.nextQuestion} />
+        <Answers
+          nextQuestion={this.props.nextQuestion}
+          answers={this.props.answers}
+          correct={this.props.correct}
+          increaseScore={this.props.increaseScore}
+        />
       </div>
     );
   }

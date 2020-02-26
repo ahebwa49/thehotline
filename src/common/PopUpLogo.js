@@ -6,7 +6,7 @@ const Logo = () => {
       <img
         src="/static/img/ndvhlogo.png"
         width="150px"
-        height="143px"
+        height="143.88px"
         alt="logo"
       />
     </div>

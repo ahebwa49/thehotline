@@ -1,68 +1,113 @@
 .header {
-  display: flex;
-  font-size: 14px;
-  align-items: center;
   /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px;
+  font-size: 14px;
+  height: 19px;
+  margin-top: 30px;
+  width: 126px;
+}
+
+.header-image {
+  position: absolute;
+  left: calc(100vw - 50%);
+  margin-left: -26px;
+  /* border: 1px solid cyan; */
 }
 
 .logo {
   display: flex;
   justify-content: center;
   margin-top: 35px;
-  margin-bottom: 50px;
   /* border: 1px solid blue; */
 }
 
-.content-heading {
+.content {
   text-align: center;
+  margin-top: 46.12px;
+  /* border: 1px solid green; */
+}
+
+.content-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
   font-size: 24px;
   line-height: 33px;
-  font-weight: 450;
+  text-align: center;
+
+  color: #080808;
+
+  /* border: 1px solid yellow; */
 }
 
 .content-text-1 {
-  text-align: center;
-  color: #848484;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #848484;
+  /* border: 1px solid yellow; */
 }
 
 .content-text {
-  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
+  font-size: 14px;
   line-height: 22px;
   text-align: center;
   color: #080808;
+  /* border: 1px solid yellow; */
 }
 
 .start-button {
   display: flex;
   justify-content: center;
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
   width: 128px;
   height: 52px;
   color: white;
   background: #9e3a8a;
   border-radius: 3px;
-  margin: 10px auto;
   text-align: center;
   align-items: center;
 }
 
 .start-text {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
   text-align: center;
   color: #9e3a8a;
 }
 
 .swipe {
   display: flex;
+  margin-top: 41px;
+  margin-bottom: 22px;
   /* border: 1px solid green; */
   align-items: center;
-  margin-bottom: auto;
 }
 
 .swipe-note {
-  color: #848484;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -70,39 +115,57 @@
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #848484;
 }
 
 .quiz {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
 }
 
 .mask-group {
   display: flex;
+  position: relative;
   justify-content: center;
   /* border: 1px solid blue; */
-  margin: 25px 0px;
+  /* margin: 25px 0px; */
 }
 
 .question-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  /* border-radius: 50%; */
+  border-radius: 50%;
+  bottom: -25px;
   width: 50px;
   height: 50px;
   align-items: center;
+  color: #848484;
   background-color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .question {
+  margin-top: 47px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
   text-align: center;
-  padding: 15px;
+  color: #080808;
 }
 
 .answers {
   display: flex;
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 29px;
   justify-content: space-around;
   /* border: 1px solid rgb(146, 136, 146); */
 }
