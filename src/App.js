@@ -15,6 +15,8 @@ class App extends React.Component {
       total: data.length,
       showPopUp: true,
       showResults: false
+      // showPopUp: false,
+      // showResults: true
     };
   }
 
