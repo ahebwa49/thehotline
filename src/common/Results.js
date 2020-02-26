@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "./Header";
 import Swipe from "./Swipe";
+import Progress from "./Progress";
 
 const Results = props => {
   const { score, total } = props;
+  const percentage = (score / total) * 100;
   return (
     <div>
       <Header />
-
+      <Progress percentage={percentage} />
       {/* <h3>
         You scored {props.score}/{props.total}
       </h3> */}
