@@ -11,10 +11,10 @@ class Progress extends React.Component {
   }
 
   render() {
-    const { percentage } = this.props;
+    const { percentage, reverse } = this.props;
     return (
       <div className="tracker">
-        <Filler percentage={percentage} />
+        <Filler percentage={percentage} reverse={reverse} />
       </div>
     );
   }

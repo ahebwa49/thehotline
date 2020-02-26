@@ -6,13 +6,11 @@ import Progress from "./Progress";
 const Results = props => {
   const { score, total } = props;
   const percentage = (score / total) * 100;
+  const reverse = 100 - percentage;
   return (
     <div>
       <Header />
-      <Progress percentage={percentage} />
-      {/* <h3>
-        You scored {props.score}/{props.total}
-      </h3> */}
+      <Progress percentage={percentage} reverse={reverse} />
       <div className="result">
         <p className="result-wording">It looks like you are in </p>
         <p className="result-answer">
