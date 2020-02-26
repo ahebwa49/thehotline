@@ -7,16 +7,19 @@ const Results = props => {
   return (
     <div>
       <Header />
-      <h1> Welcome to the results page :)</h1>
-      <h3>
+
+      {/* <h3>
         You scored {props.score}/{props.total}
-      </h3>
-      <div>
-        {score === total
-          ? "You are in a healthy relationship"
-          : score < total / 2
-          ? "You are in a toxic relationship"
-          : "You are in an unhealthy relationship"}
+      </h3> */}
+      <div className="result">
+        <p className="result-ans">
+          It looks like you are in{" "}
+          {score === total
+            ? "A HEALTHY RELATIONSHIP"
+            : score < total / 2
+            ? "A TOXIC RELATIONSHIP"
+            : "AN UNHEALTHY RELATIONSHIP"}
+        </p>
       </div>
       <Swipe />
     </div>

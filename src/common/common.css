@@ -180,3 +180,22 @@
   height: 52px;
   border: 2px solid #9e3a8a;
 }
+
+.result {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 64px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.result-ans {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #080808;
+}
