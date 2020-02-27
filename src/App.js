@@ -13,10 +13,10 @@ class App extends React.Component {
       count: 0,
       score: 0,
       total: data.length,
-      // showPopUp: true,
-      // showResults: false
-      showPopUp: false,
-      showResults: true
+      showPopUp: true,
+      showResults: false
+      // showPopUp: false,
+      // showResults: true
     };
   }
 
