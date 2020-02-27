@@ -540,4 +540,13 @@
 
 .but-option-text {
   margin: 0px 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  /* Black Text */
+
+  color: #080808;
 }
