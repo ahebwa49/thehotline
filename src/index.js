@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import But from "./common/But";
 import * as serviceWorker from "./serviceWorker";
 
 class Routing extends React.Component {
@@ -16,6 +17,7 @@ class Routing extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={App} />
+          <Route path="/but" component={But} />
         </Switch>
       </Router>
     );

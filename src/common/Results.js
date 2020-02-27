@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Swipe from "./Swipe";
 import Progress from "./Progress";
+import { Link } from "react-router-dom";
 
 const Results = props => {
   const { score, total } = props;
@@ -40,9 +41,11 @@ const Results = props => {
         />
       </div>
       <div className="results-reasons">
-        <p className="results-reasons-text">
-          See why people stay in abusive relationships
-        </p>
+        <Link to="/but" style={{ textDecoration: "none" }}>
+          <p className="results-reasons-text">
+            See why people stay in abusive relationships
+          </p>
+        </Link>
       </div>
       <p className="help-text">We want to help you go through this:</p>
       <div className="call-the-hotline">
