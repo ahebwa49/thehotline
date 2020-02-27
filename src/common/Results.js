@@ -18,7 +18,7 @@ const Results = props => {
           {score === total
             ? "A HEALTHY RELATIONSHIP"
             : score < total / 2
-            ? "A TOXIC RELATIONSHIP"
+            ? "AN ABUSIVE RELATIONSHIP"
             : "AN UNHEALTHY RELATIONSHIP"}
         </p>
       </div>
@@ -60,8 +60,8 @@ const Results = props => {
         <div className="call-text">
           <p className="call-text-headline">CALL THE HOTLINE</p>
           <p className="call-text-paragraph">
-            See tips on how to protect yourself and make a call and what to
-            expect
+            Our highly-trained advocates are available 24/7/365 to talk with you
+            confidentially.
           </p>
         </div>
       </div>
@@ -89,11 +89,11 @@ const Results = props => {
           <img src="/static/img/sad1.png" width="40" height="40" alt="sad" />
         </div>
         <div className="de-escalate-text">
-          <p className="de-escalate-text-headline">
-            TIPS ON HOW TO DE-ESCALATE
-          </p>
+          <p className="de-escalate-text-headline">PATH TO SAFETY</p>
           <p className="de-escalate-text-paragraph">
-            Understand how you can try to community and resolve issues.
+            A safety plan is a personalized, practical plan that includes ways
+            to remain safe while in a relationship, planning to leave, or after
+            you leave.
           </p>
         </div>
       </div>
