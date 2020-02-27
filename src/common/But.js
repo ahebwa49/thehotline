@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Swipe from "./Swipe";
 
@@ -23,16 +24,19 @@ const But = () => {
           </p>
         </div>
       </div>
-      <div className="but-option">
-        <img
-          src="/static/img/rMaskGroup.png"
-          width="64"
-          height="64"
-          alt="mask-group"
-          className="but-option-img"
-        />
-        <p className="but-option-text">I don't have a steady income</p>
-      </div>
+      <Link to="/but/no-steady-income" style={{ textDecoration: "none" }}>
+        <div className="but-option">
+          <img
+            src="/static/img/rMaskGroup.png"
+            width="64"
+            height="64"
+            alt="mask-group"
+            className="but-option-img"
+          />
+          <p className="but-option-text">I don't have a steady income</p>
+        </div>
+      </Link>
+
       <div className="but-option">
         <img
           src="/static/img/MaskGroup2.svg"

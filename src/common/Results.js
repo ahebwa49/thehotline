@@ -65,22 +65,25 @@ const Results = props => {
           </p>
         </div>
       </div>
-      <div className="community-resources">
-        <div className="cr-background">
-          <img
-            src="/static/img/heart1.png"
-            width="40"
-            height="40"
-            alt="heart"
-          />
+      <Link to="/community-resources" style={{ textDecoration: "none" }}>
+        <div className="community-resources">
+          <div className="cr-background">
+            <img
+              src="/static/img/heart1.png"
+              width="40"
+              height="40"
+              alt="heart"
+            />
+          </div>
+          <div className="cr-text">
+            <p className="cr-text-headline">COMMUNITY RESOURCES</p>
+            <p className="cr-text-paragraph">
+              Find help in your community, support groups, shelters and more.
+            </p>
+          </div>
         </div>
-        <div className="cr-text">
-          <p className="cr-text-headline">COMMUNITY RESOURCES</p>
-          <p className="cr-text-paragraph">
-            Find help in your community, support groups, shelters and more.
-          </p>
-        </div>
-      </div>
+      </Link>
+
       <div className="de-escalate">
         <div className="de-escalate-background">
           <img src="/static/img/sad1.png" width="40" height="40" alt="sad" />

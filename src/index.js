@@ -5,6 +5,8 @@ import "./index.css";
 import App from "./App";
 import But from "./common/But";
 import * as serviceWorker from "./serviceWorker";
+import ButInfo from "./common/ButInfo";
+import CommunityResources from "./common/CommunityResources";
 
 class Routing extends React.Component {
   constructor(props) {
@@ -17,7 +19,9 @@ class Routing extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/but" component={But} />
+          <Route exact path="/but" component={But} />
+          <Route path="/but/no-steady-income" component={ButInfo} />
+          <Route path="/community-resources" component={CommunityResources} />
         </Switch>
       </Router>
     );
