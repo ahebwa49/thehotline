@@ -26,7 +26,7 @@ const But = () => {
       <Link to="/but/no-steady-income" style={{ textDecoration: "none" }}>
         <div className="but-option">
           <img
-            src="/static/img/rMaskGroup.png"
+            src="/static/img/rMaskGroup.svg"
             width="64"
             height="64"
             alt="mask-group"
