@@ -11,10 +11,9 @@ class Quiz extends React.Component {
       <div className="quiz">
         <div className="mask-group">
           <img
-            src="/static/img/MaskGroup.png"
-            width="250"
-            height="250"
+            src="/static/img/MaskGroup.svg"
             alt="mask group"
+            className="mask-group-img"
           />
           <div className="question-count">
             <span className="question-count-number">{this.props.count}</span>

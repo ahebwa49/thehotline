@@ -8,9 +8,7 @@ const Header = () => {
       Back
       <img
         src="/static/img/ndvhheader.png"
-        width="52.13"
         alt="header-logo"
-        height="50"
         className="header-image"
       />
     </div>
