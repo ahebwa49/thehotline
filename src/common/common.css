@@ -718,4 +718,62 @@
   .answer {
     margin: 0px 10px;
   }
+
+  .progress {
+    width: 450px;
+    margin-top: 110px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thought {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 450px;
+    height: 18px;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .result-option-1 {
+    width: 450px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .results-reasons {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .help-text {
+    font-size: 16px;
+    line-height: 22px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .call-the-hotline {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .community-resources {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .de-escalate {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

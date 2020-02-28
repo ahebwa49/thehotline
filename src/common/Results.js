@@ -31,7 +31,7 @@ const Results = props => {
           alt="mask-group"
           className="result-option-1-img1"
         />
-        <p className="result-option-1-text">I dont have a steady income</p>
+        <p className="result-option-1-text">I don't have a steady income</p>
         <img
           src="/static/img/feather-right.svg"
           width="6"
