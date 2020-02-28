@@ -26,7 +26,7 @@ const ButInfo = () => {
       <div className="call-the-hotline">
         <div className="call-background">
           <img
-            src="/static/img/telephone1.png"
+            src="/static/img/telephone1.svg"
             width="36"
             height="52"
             alt="telephone"
@@ -44,7 +44,7 @@ const ButInfo = () => {
         <div className="community-resources">
           <div className="cr-background">
             <img
-              src="/static/img/heart1.png"
+              src="/static/img/heart1.svg"
               width="40"
               height="40"
               alt="heart"

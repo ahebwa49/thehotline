@@ -69,7 +69,7 @@ const Results = props => {
         <div className="community-resources">
           <div className="cr-background">
             <img
-              src="/static/img/heart 1.svg"
+              src="/static/img/heart1.svg"
               width="40"
               height="40"
               alt="heart"
