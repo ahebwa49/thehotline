@@ -636,7 +636,9 @@
 .community-resources-header-text {
   display: flex;
   flex-direction: column;
-  width: 343px;
+  /* width: 343px; */
+  padding: 0px 16px;
+  /* border: 1px solid red; */
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;

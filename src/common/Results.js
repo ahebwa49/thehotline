@@ -25,7 +25,7 @@ const Results = props => {
       <p className="thought">You might be thinking ...</p>
       <div className="result-option-1">
         <img
-          src="/static/img/rMaskGroup.png"
+          src="/static/img/rMaskGroup.svg"
           width="64"
           height="64"
           alt="mask-group"
