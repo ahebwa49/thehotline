@@ -7,14 +7,20 @@ const ButInfo = () => {
   return (
     <div>
       <Header />
-      <div className="but-info-div" />
-      <p className="but-info-heading">I don't have a steady income</p>
+      <div className="but-info-div">
+        <img
+          src="/static/img/butInfoMaskGroup.svg"
+          alt="sad"
+          className="but-info-mask-group"
+        />
+      </div>
+      <p className="but-info-heading">I don't have a steady income...</p>
       <p className="but-info-paragraph">
         Si ergo ilia tantum fastidium compesce contra naturalem usum habili,
         quem habetis vestra potestate, non aliud quam aversantur incurrere. Sed
         si ipse aversaris, ad languorem: et mors, paupertas et to miseros fore.
       </p>
-      <p>
+      <p className="but-info-support-paragrah">
         What can you do? <b>Support Resources</b>:
       </p>
       <div className="call-the-hotline">

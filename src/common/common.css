@@ -578,11 +578,12 @@
   justify-content: center;
   justify-self: center;
   margin-top: 33px;
-  margin-left: 18px;
-  margin-right: 18px;
   margin-bottom: 38px;
-  height: 164px;
-  background: #c4c4c4;
+}
+
+.but-info-mask-group {
+  width: 170px;
+  height: 170px;
 }
 
 .but-info-heading {
@@ -727,7 +728,7 @@
   }
 
   .progress {
-    width: 450px;
+    width: 585px;
     margin-top: 110px;
     /* border: 1px solid red; */
     margin-left: auto;
@@ -738,7 +739,7 @@
     margin-top: 25px;
     font-size: 16px;
     line-height: 22px;
-    width: 450px;
+    width: 585px;
     height: 18px;
     /* border: 1px solid red; */
     margin-left: auto;
@@ -746,14 +747,14 @@
   }
 
   .result-option-1 {
-    width: 450px;
+    width: 585px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .results-reasons {
-    width: 450px;
+    width: 585px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -761,25 +762,25 @@
   .help-text {
     font-size: 16px;
     line-height: 22px;
-    width: 450px;
+    width: 585px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .call-the-hotline {
-    width: 450px;
+    width: 585px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .community-resources {
-    width: 450px;
+    width: 585px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .de-escalate {
-    width: 450px;
+    width: 585px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -813,5 +814,50 @@
   .but-option-text {
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .but-info-div {
+    margin-top: 82px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .but-info-mask-group {
+    width: 300px;
+    height: 300px;
+  }
+
+  .but-info-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #080808;
+  }
+
+  .but-info-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    width: 585px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .but-info-support-paragrah {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 585px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+    color: #080808;
   }
 }
