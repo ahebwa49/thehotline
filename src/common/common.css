@@ -501,6 +501,11 @@
   border-radius: 3px;
 }
 
+.but-header-img {
+  width: 40;
+  height: 40;
+}
+
 .but-header-text {
   display: flex;
   margin: 13px 0px;
@@ -688,6 +693,7 @@
     margin-left: -40px;
     height: 83.4px;
     width: 80px;
+    top: 19px;
     /* border: 1px solid cyan; */
   }
 
@@ -717,6 +723,7 @@
 
   .answer {
     margin: 0px 10px;
+    cursor: pointer;
   }
 
   .progress {
@@ -775,5 +782,36 @@
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .but-header {
+    margin-top: 82px;
+    margin-bottom: 15px;
+  }
+
+  .but-header-img {
+    width: 60;
+    height: 60;
+  }
+
+  .information1 {
+    margin-top: 25px;
+  }
+
+  .but-header-text {
+    margin-bottom: 28px;
+    /* border: 1px solid blue; */
+  }
+
+  .but-option {
+    width: 585px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .but-option-text {
+    font-size: 16px;
+    line-height: 22px;
   }
 }

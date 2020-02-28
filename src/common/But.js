@@ -11,9 +11,8 @@ const But = () => {
         <div className="information1">
           <img
             src="/static/img/information1.svg"
-            width="40"
-            height="40"
             alt="information"
+            className="but-header-img"
           />
         </div>
 
