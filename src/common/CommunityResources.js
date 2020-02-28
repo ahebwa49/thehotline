@@ -24,8 +24,6 @@ const CommunityResources = () => {
         </div>
       </div>
 
-      {/* <p className="community-resources-heading">Community Resources</p> */}
-
       <p className="but-info-paragraph">
         When survivors come to us with needs beyond the scope of DVRC’s
         services, we work with them to find the help they need elsewhere in the
@@ -33,9 +31,15 @@ const CommunityResources = () => {
         we commonly refer clients to.
       </p>
       <div className="resources">
-        <p>
-          Domestic Violence Resources
-        </p>
+        <div className="resource">Domestic Violence Resources</div>
+        <div className="resource">Sexual Asault Resources</div>
+        <div className="resource">Mental Health Resources</div>
+        <div className="resource">Legal Resources</div>
+        <div className="resource">Culturally Resources</div>
+        <div className="resource">Youth Resources</div>
+        <div className="resource">Housing Resources</div>
+        <div className="resource">Food and Clothing Resources</div>
+        <div className="resource">Other Resources</div>
       </div>
       <Swipe />
     </div>

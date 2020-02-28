@@ -673,14 +673,18 @@
 }
 
 .resources {
+}
+
+.resource {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin: 19px 17px; */
   height: 60px;
   background: #fbfbfb;
   border: 1px solid #e1e1e1;
   box-sizing: border-box;
-}
-
-.resources p {
-  margin: 19px 17px;
 }
 @media screen and (min-width: 700px) {
   .header {
