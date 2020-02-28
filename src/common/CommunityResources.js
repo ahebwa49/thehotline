@@ -10,7 +10,7 @@ const CommunityResources = () => {
       <div className="community-resources-header">
         <div className="information1">
           <img
-            src="/static/img/heart 1.svg"
+            src="/static/img/heart1.svg"
             alt="heart"
             className="community-resources-header-img"
           />
