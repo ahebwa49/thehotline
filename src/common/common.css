@@ -677,6 +677,7 @@
 
 .resource {
   display: flex;
+  cursor: pointer;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -686,6 +687,21 @@
   border: 1px solid #e1e1e1;
   box-sizing: border-box;
 }
+
+.dvr-resources {
+  display: none;
+}
+
+.dvr-resources.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-safety {
+  display: flex;
+}
+
+
 @media screen and (min-width: 700px) {
   .header {
     /* border: 1px solid red; */

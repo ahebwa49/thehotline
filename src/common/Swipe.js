@@ -5,7 +5,7 @@ const Swipe = () => {
     <div className="swipe">
       <img src="/static/img/icon.svg" width="36" alt="swipe" height="36" />
       <p className="swipe-note">
-        Swipe in anytime to start playing a game and hide this screen
+        <b>Swipe</b> in anytime to start playing a game and hide this screen
       </p>
       <img
         src="/static/img/visual-icon.svg"
