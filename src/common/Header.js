@@ -7,7 +7,7 @@ const Header = () => {
       <img src="/static/img/arrow-left.svg" width="20" alt="back" height="20" />{" "}
       Back
       <img
-        src="/static/img/ndvhheader.png"
+        src="/static/img/ndvhheader.svg"
         alt="header-logo"
         className="header-image"
       />

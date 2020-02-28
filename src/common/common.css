@@ -620,6 +620,66 @@
   color: #080808;
 }
 
+.community-resources-header {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: -1rem;
+  background: radial-gradient(50% 40.2% at 50% 40.2%, #e98139 0%, #c96430 100%);
+  border-radius: 3px;
+}
+
+.community-resources-header-text {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 21px;
+  margin-top: 9px;
+}
+
+.community-resources-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #080808;
+}
+
+.community-resources-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 27px;
+  line-height: 22px;
+  text-align: center;
+  color: #080808;
+}
+
+.resources {
+  height: 60px;
+  background: #fbfbfb;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+}
+
+.resources p {
+  margin: 19px 17px;
+}
 @media screen and (min-width: 700px) {
   .header {
     /* border: 1px solid red; */
@@ -667,6 +727,7 @@
 
   .start-button {
     margin-top: 32px;
+    cursor: pointer;
   }
 
   .start-text {

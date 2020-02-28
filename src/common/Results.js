@@ -51,7 +51,7 @@ const Results = props => {
       <div className="call-the-hotline">
         <div className="call-background">
           <img
-            src="/static/img/telephone1.png"
+            src="/static/img/telephone1.svg"
             width="36"
             height="52"
             alt="telephone"
@@ -69,7 +69,7 @@ const Results = props => {
         <div className="community-resources">
           <div className="cr-background">
             <img
-              src="/static/img/heart1.png"
+              src="/static/img/heart 1.svg"
               width="40"
               height="40"
               alt="heart"
@@ -86,7 +86,7 @@ const Results = props => {
 
       <div className="de-escalate">
         <div className="de-escalate-background">
-          <img src="/static/img/sad1.png" width="40" height="40" alt="sad" />
+          <img src="/static/img/sad1.svg" width="40" height="40" alt="sad" />
         </div>
         <div className="de-escalate-text">
           <p className="de-escalate-text-headline">PATH TO SAFETY</p>
